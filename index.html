@@ -1,169 +1,246 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <meta http-equiv="refresh" content="1"> -->
-    <!-- 自动刷新 -->
-    <link href="img/iht.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="css/index.css">
-    <title>IHT - 比赛服务平台</title>
-    <style>
-        .navbar{
-            background-image: url(img/IT_HEART.png);
-            background-repeat: no-repeat;
-            background-size: 20% 64px;
-            z-index: 10;
-        }
-        .search_area form{
-            position: relative;
-            padding-left: 40%;
-            padding-top: 0px;
-        } 
-        .search_area form input{
-            position: relative;
-            height: 32px;
-            padding-left: 12px;
-            /* margin: auto; */
-        }
-        #login{
-            position: relative;
-            float: left;
-            width: 10%;
-            left: 18%;
-            /* background-color: rgb(0, 0, 0); */
-            color: white;
-            height: 64px;
-            line-height: 64px;
-        }
-        .main{
-            padding-top: 8%;
-            width: 80%;
-            /* height: 800px;; */
-            margin: auto;;
-        }   
-        .left{
-            position: relative;
-            float: left;
-            width: 20%;
-            background-color:white;
-        }
-        .right{
-            position: relative;
-            float: right;
-            width: 76%;
-            color:black;
-            background-color: white;
-        }
-        .left li a{
-            color: #000;
-            font-weight:unset;
-        }
-        .left h3,h4{
-            color: rgb(172, 28, 28);
-        }
-        hr{
-            size:0px; 
-        }
-        .slider img{
-            width: 100%;
-            height: 100%;
-        }
-        
-    </style>
+<meta charset="UTF-8">
+<title>特效</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+  .class2{
+  background-image: url(img/图片5.jpg);
+  background-size: cover;
+  }
+  </style>
 </head>
-<body>
-    <header>
-        <div class="navbar">
-            <div class="region">
-                <div>
-                    <!-- 菜单区 -->
-                    <ul >
-                        <li><a href="index.html">首页</a></li>
-                        <li id="liebiao">&nbsp; &nbsp;&nbsp;比赛信息 
-                            <ul id="xialai">
-                                <li><a href="各类比赛信息界面.html">各类比赛信息</a></li>
-                                <li><a href="比赛群聊界面.html">比赛群聊</a></li>
-                                <li><a href="比赛获奖信息.html">比赛获奖信息</a></li>
-                            </ul>
-                         </li>
-                        <li><a href="https://uscihtoj.com">技术资料</a></li>
-                        <li><a href="团队介绍.html">团队介绍</a></li>
-                    </ul>
-                </div>
-                
-               <div class="search_area">
-                   <!-- 搜索区 -->
-                   <form action="https://www.baidu.com/s">
-                       <input class="search-input" placeholder="百度一下" name="wd"style="width:250px; height:32px;padding-left: 12px;" type="text">
-                   </form>
-               </div>
-            </div>
-            <div id="login">
-                <span >
-                    <a href="" style="padding: 0 10px !important;">登陆</a>
-                    |
-                    <a href="">注册</a>
-                </span>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="main">
-        <div class="content_body">
-            <div class="left">
-                <h3 align="center">可能有用的训练网站</h3>
-                <hr>
-                     <h4>ACM训练</h4>
-                        <ul>
-                            <li><a href="http://47.105.215.157/" target="_blank">IHT OJ</a></li>
-                            <li><a href="http://dasai.lanqiao.cn/" target="_blank">蓝桥杯</a></li>
-                            <li><a href="http://acm.swust.edu.cn:8080/JudgeOnline/" target="_blank">swust</a></li>
-                        </ul>
-                        <hr>
-                        <h4>CTF训练</h4>
-                        <ul>
-                            <li><a href="https://adworld.xctf.org.cn/" target="_blank">攻防世界</a></li>
-                            <li><a href="http://www.shiyanbar.com/ctf/practice" target="_blank">实验吧</a></li>
-                            <li><a href="https://ctf.bugku.com/" target="_blank">bugku</a></li>
-                        </ul>
-                        <hr>
-                        <h4>数学建模</h4>
-                        <ul>
-                            <li><a href="http://www.mcm.edu.cn/" target="_blank">全国大学生数学建模大赛</a></li>
-                        </ul>
-                    <hr>
-                <h4 style="color:rgb(3, 3, 3)">我们继续努力为大家寻找更多训练资源</h4>
-            </div>
-            <div class="right">
-                <div id="motto">
-                    <p align="center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</p>
-                </div>
-                <div id="scrollPics">
-                    <ul class="slider">
-                        <li><img src="img/acm.png" /></li>
-                        <li><img src="img/ctf.png" /></li>
-                        <li><img src="img/shumo.png"/></li>
-                     </ul>
-                    <ul class="num"></ul>
-                </div>
-            </div>
-        </div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer_body">
-                <div class="footer_right">
-                    <span style="font-weight: bold;">
-                    <a href="">关于我们</a>
-                    <a href="">加入我们</a>
-                    <a href="">联系我们</a>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </footer>
+<body  class="class2">
+
+  <div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class='💀'>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+  <div class='🌀'></div>
+</div>
+<div class="class5">
+  <input type="button" value="Go!";
+style="height:150px;width:150px; background: rgba(255, 255, 255, 0); font-size:50px; color: rgb(15, 9, 92);"
+onclick="javascript:location.href='main.html'">
+</div>
 </body>
 </html>
