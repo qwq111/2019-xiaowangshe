@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IHT - 比赛服务平台</title>
+    <link href="img/iht.ico" rel="shortcut icon">
+    <style tyle="text/css">
+       .class1{
+        background-image: url(img/图片6.jpg);
+        background-size: cover;
+    }
+        .class2{
+            background: rgba(255, 255, 255, 0.2);
+    }
+    #flag{
+        position: fixed;
+        bottom: 0px;
+        right: 2px;
+    }
+    </style>
+</head>
+<body class="class1">
+     <!-- border代表有边框，aligin代表表格位置居中 -->
+    <div id="flag">
+        <a href="index.html" style="font-weight:bold;font-size:20px;color:brown;">回到<br>主页</a>
+    </div>
+     <div  style="float:left;">
+        <table border="2px"   class="class2">
+           <tr>
+               <!-- th代表字体加粗，字体居中，td是居左，没加错，一般第一行是用th -->
+               <th>比赛项目</td>
+               <th>获奖等级</td>
+               <th>团队成员</td>
+               <th>指导老师</td>
+               <th>参赛时间</td>
+           </tr>
+           <tr>
+               <td>绿色计算机大赛</td>
+               <td>特等奖</td>
+               <td>邱忠喜，李嘉豪</td>
+               <td>何啸峰</td>
+               <td>2018.10</td>
+           </tr>
+           <tr>
+            <td>绿色计算机大赛</td>
+            <td>一等奖</td>
+            <td>周行，张景云等</td>
+            <td>刘洋</td>
+            <td>2018.10</td>
+        </tr>
+        <tr>
+            <td>绿色计算机大赛</td>
+            <td>一等奖</td>
+            <td>邱忠喜，王倩</td>
+            <td>无</td>
+            <td>2018.10</td>
+        </tr>
+        <tr>
+            <td>绿色计算机大赛</td>
+            <td>一等奖</td>
+            <td>李超芝，毛嘉敏等</td>
+            <td>欧阳纯萍</td>
+            <td>2018.10</td>
+        </tr>
+        <tr>
+            <td>绿色计算机大赛</td>
+            <td>一等奖</td>
+            <td>黎娄，凌庆，周浩等</td>
+            <td>李晓昀</td>
+            <td>2018.10</td>
+        </tr>
+        <tr>
+            <td>绿色计算机大赛</td>
+            <td>特等奖</td>
+            <td>邱忠喜，李嘉豪</td>
+            <td>何啸峰</td>
+            <td>2018.10</td>
+        </tr>
+        <tr>
+         <td>绿色计算机大赛</td>
+         <td>一等奖</td>
+         <td>周行，张景云等</td>
+         <td>刘洋</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+         <td>绿色计算机大赛</td>
+         <td>一等奖</td>
+         <td>邱忠喜，王倩</td>
+         <td>无</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+         <td>绿色计算机大赛</td>
+         <td>一等奖</td>
+         <td>李超芝，毛嘉敏等</td>
+         <td>欧阳纯萍</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+         <td>绿色计算机大赛</td>
+         <td>一等奖</td>
+         <td>黎娄，凌庆，周浩等</td>
+         <td>李晓昀</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+        <td>绿色计算机大赛</td>
+        <td>特等奖</td>
+        <td>邱忠喜，李嘉豪</td>
+        <td>何啸峰</td>
+        <td>2018.10</td>
+    </tr>
+    <tr>
+     <td>绿色计算机大赛</td>
+     <td>一等奖</td>
+     <td>周行，张景云等</td>
+     <td>刘洋</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>一等奖</td>
+     <td>邱忠喜，王倩</td>
+     <td>无</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>一等奖</td>
+     <td>李超芝，毛嘉敏等</td>
+     <td>欧阳纯萍</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>一等奖</td>
+     <td>黎娄，凌庆，周浩等</td>
+     <td>李晓昀</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+    <td>绿色计算机大赛</td>
+    <td>特等奖</td>
+    <td>邱忠喜，李嘉豪</td>
+    <td>何啸峰</td>
+    <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>周行，张景云等</td>
+ <td>刘洋</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>邱忠喜，王倩</td>
+ <td>无</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>李超芝，毛嘉敏等</td>
+ <td>欧阳纯萍</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>黎娄，凌庆，周浩等</td>
+ <td>李晓昀</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+    <td>绿色计算机大赛</td>
+    <td>特等奖</td>
+    <td>邱忠喜，李嘉豪</td>
+    <td>何啸峰</td>
+    <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>周行，张景云等</td>
+ <td>刘洋</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>邱忠喜，王倩</td>
+ <td>无</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>李超芝，毛嘉敏等</td>
+ <td>欧阳纯萍</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>黎娄，凌庆，周浩等</td>
+ <td>李晓昀</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+    <td>绿色计算机大赛</td>
+    <td>特等奖</td>
+    <td>邱忠喜，李嘉豪</td>
+    <td>何啸峰</td>
+    <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>周行，张景云等</td>
+ <td>刘洋</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>邱忠喜，王倩</td>
+ <td>无</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>李超芝，毛嘉敏等</td>
+ <td>欧阳纯萍</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>黎娄，凌庆，周浩等</td>
+ <td>李晓昀</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+    <td>绿色计算机大赛</td>
+    <td>特等奖</td>
+    <td>邱忠喜，李嘉豪</td>
+    <td>何啸峰</td>
+    <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>周行，张景云等</td>
+ <td>刘洋</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>邱忠喜，王倩</td>
+ <td>无</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>李超芝，毛嘉敏等</td>
+ <td>欧阳纯萍</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>黎娄，凌庆，周浩等</td>
+ <td>李晓昀</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+    <td>绿色计算机大赛</td>
+    <td>特等奖</td>
+    <td>邱忠喜，李嘉豪</td>
+    <td>何啸峰</td>
+    <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>周行，张景云等</td>
+ <td>刘洋</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>邱忠喜，王倩</td>
+ <td>无</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>李超芝，毛嘉敏等</td>
+ <td>欧阳纯萍</td>
+ <td>2018.10</td>
+</tr>
+<tr>
+ <td>绿色计算机大赛</td>
+ <td>一等奖</td>
+ <td>黎娄，凌庆，周浩等</td>
+ <td>李晓昀</td>
+ <td>2018.10</td>
+</tr>
+        
+        
+
+       </table>
+       
+       </div>
+    <div  style="float:left;">
+        <table border="2px"   class="class2">
+            <tr>
+                <!-- th代表字体加粗，字体居中，td是居左，没加错，一般第一行是用th -->
+                <th>比赛项目</td>
+                <th>获奖等级</td>
+                <th>团队成员</td>
+                <th>指导老师</td>
+                <th>参赛时间</td>
+            </tr>
+            <tr>
+                <td>绿色计算机大赛</td>
+                <td>特等奖</td>
+                <td>邱忠喜，李嘉豪</td>
+                <td>何啸峰</td>
+                <td>2018.10</td>
+            </tr>
+            <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>周行，张景云等</td>
+             <td>刘洋</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>邱忠喜，王倩</td>
+             <td>无</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>李超芝，毛嘉敏等</td>
+             <td>欧阳纯萍</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>黎娄，凌庆，周浩等</td>
+             <td>李晓昀</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>特等奖</td>
+             <td>邱忠喜，李嘉豪</td>
+             <td>何啸峰</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>周行，张景云等</td>
+          <td>刘洋</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>邱忠喜，王倩</td>
+          <td>无</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>李超芝，毛嘉敏等</td>
+          <td>欧阳纯萍</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>黎娄，凌庆，周浩等</td>
+          <td>李晓昀</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+         <td>绿色计算机大赛</td>
+         <td>特等奖</td>
+         <td>邱忠喜，李嘉豪</td>
+         <td>何啸峰</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>周行，张景云等</td>
+      <td>刘洋</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>邱忠喜，王倩</td>
+      <td>无</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>李超芝，毛嘉敏等</td>
+      <td>欧阳纯萍</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>黎娄，凌庆，周浩等</td>
+      <td>李晓昀</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+         
+         
+ 
+        </table>
+        
+        </div>
+     <div  style="float:left;">
+         <table border="2px"   class="class2">
+
+       </table>
+       
+       </div>
+       <div  style="float:left;">
+        <table border="2px"   class="class2">
+            <tr>
+                <!-- th代表字体加粗，字体居中，td是居左，没加错，一般第一行是用th -->
+                <th>比赛项目</td>
+                <th>获奖等级</td>
+                <th>团队成员</td>
+                <th>指导老师</td>
+                <th>参赛时间</td>
+            </tr>
+            <tr>
+                <td>绿色计算机大赛</td>
+                <td>特等奖</td>
+                <td>邱忠喜，李嘉豪</td>
+                <td>何啸峰</td>
+                <td>2018.10</td>
+            </tr>
+            <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>周行，张景云等</td>
+             <td>刘洋</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>邱忠喜，王倩</td>
+             <td>无</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>李超芝，毛嘉敏等</td>
+             <td>欧阳纯萍</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>一等奖</td>
+             <td>黎娄，凌庆，周浩等</td>
+             <td>李晓昀</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+             <td>绿色计算机大赛</td>
+             <td>特等奖</td>
+             <td>邱忠喜，李嘉豪</td>
+             <td>何啸峰</td>
+             <td>2018.10</td>
+         </tr>
+         <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>周行，张景云等</td>
+          <td>刘洋</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>邱忠喜，王倩</td>
+          <td>无</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>李超芝，毛嘉敏等</td>
+          <td>欧阳纯萍</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+          <td>绿色计算机大赛</td>
+          <td>一等奖</td>
+          <td>黎娄，凌庆，周浩等</td>
+          <td>李晓昀</td>
+          <td>2018.10</td>
+      </tr>
+      <tr>
+         <td>绿色计算机大赛</td>
+         <td>特等奖</td>
+         <td>邱忠喜，李嘉豪</td>
+         <td>何啸峰</td>
+         <td>2018.10</td>
+     </tr>
+     <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>周行，张景云等</td>
+      <td>刘洋</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>邱忠喜，王倩</td>
+      <td>无</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>李超芝，毛嘉敏等</td>
+      <td>欧阳纯萍</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+      <td>绿色计算机大赛</td>
+      <td>一等奖</td>
+      <td>黎娄，凌庆，周浩等</td>
+      <td>李晓昀</td>
+      <td>2018.10</td>
+  </tr>
+  <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+     <td>绿色计算机大赛</td>
+     <td>特等奖</td>
+     <td>邱忠喜，李嘉豪</td>
+     <td>何啸峰</td>
+     <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>周行，张景云等</td>
+  <td>刘洋</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>邱忠喜，王倩</td>
+  <td>无</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>李超芝，毛嘉敏等</td>
+  <td>欧阳纯萍</td>
+  <td>2018.10</td>
+ </tr>
+ <tr>
+  <td>绿色计算机大赛</td>
+  <td>一等奖</td>
+  <td>黎娄，凌庆，周浩等</td>
+  <td>李晓昀</td>
+  <td>2018.10</td>
+ </tr>
+         
+        </table>
+        
+        </div>
+     <div  style="float:left;">
+         <table border="2px"   class="class2">       
+
+       </table>
+       
+       </div>
+   
+</body>
+</html>

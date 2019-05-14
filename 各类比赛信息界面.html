@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+       .class1{
+            background-image: url(img/图片2.jpg);
+            background-size: cover;
+            }
+    .img1{
+        /* 距离div上边有多大距离 */
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:5px;
+        height:5px;
+    }
+    html:hover .img1{
+        animation-name:img1;
+      
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img1{
+        to{
+            width:250px;
+            height:80px;
+            position: absolute;
+            top:75px;
+            left:130px;
+        }
+    }
+    .img2{
+        /* 距离div上边有多大距离 */
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:0px;
+        height:0px;
+    }
+    html:hover .img2{
+        animation-name:img2;
+  
+        animation-duration: 0.75s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img2{
+        to{
+            width:251px;
+            height:81px;
+            position: absolute;
+            top:345px;
+            left:130px;
+        }
+    }
+    .img3{
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:0px;
+        height:0px;
+    }
+    html:hover .img3{
+        animation-name:img3;
+      
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img3{
+        to{
+            width:251px;
+            height:81px;
+            position: absolute;
+            top:605px;
+            left:130px;
+        }
+    }
+    .img4{
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:0px;
+        height:0px;
+    }
+    html:hover .img4{
+        animation-name:img4;
+       
+        animation-duration: 1.25s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img4{
+        to{
+            width:250px;
+            height:80px;
+            position: absolute;
+            top:75px;
+            left: 1150px;
+        }
+    }
+    .img5{
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:0px;
+        height:0px;
+    }
+    html:hover .img5{
+        animation-name:img5;
+       
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img5{
+        to{
+            width:250px;
+            height:80px;
+            position: absolute;
+            top:345px;
+            left: 1150px;
+        }
+    }
+    .img6{
+        position: absolute;
+        top: 450px;
+        left:800px;
+        width:0px;
+        height:0px;
+    }
+    html:hover .img6{
+        animation-name:img6;
+        
+        animation-duration: 1.75s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes img6{
+        to{
+            width:250px;
+            height:80px;
+            position: absolute;
+            top:605px;
+            left: 1150px;
+        }
+    }
+    #flag{
+        position: fixed;
+        bottom: 0px;
+        right: 2px;
+    }
+    </style>
+</head>
+<body class="class1">
+        <div id="flag">
+            <a href="index.html" style="font-weight:bold;font-size:20px;color:brown;">回到<br>主页</a>
+        </div>
+    <a href="https://baike.baidu.com/item/ACM%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B/3652262?fr=aladdin" target="_blank">
+        <img src="img/ACM.jpg" class="img1">
+    </a>
+    
+    
+    <a href="http://dasai.lanqiao.cn/" target="_blank">
+        <img src="img/蓝桥杯.jpg" class="img2">
+    </a>
+   
+    <a href="https://cy.ncss.org.cn/" target="_blank">
+        <img src="img/互联网+.jpg" class="img3">
+    </a>
+   
+    <a href="http://www.mcm.edu.cn/" target="_blank">
+        <img src="img/数学建模.jpg" class="img4">
+    </a>
+   
+    <a href="http://www.tiaozhanbei.net/" target="_blank">
+        <img src="img/挑战杯.jpg" class="img5">
+    </a>
+   
+    <a href="http://cxcy.cnsoftbei.com/" target="_blank">
+        <img src="img/中软杯.jpg" class="img6">
+    </a>
+    
+</body>
+</html>

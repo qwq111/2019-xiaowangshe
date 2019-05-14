@@ -14,6 +14,7 @@
             background-image: url(img/IT_HEART.png);
             background-repeat: no-repeat;
             background-size: 20% 64px;
+            z-index: 10;
         }
         .search_area form{
             position: relative;
@@ -36,6 +37,39 @@
             height: 64px;
             line-height: 64px;
         }
+        .main{
+            padding-top: 8%;
+            width: 80%;
+            /* height: 800px;; */
+            margin: auto;;
+        }   
+        .left{
+            position: relative;
+            float: left;
+            width: 20%;
+            background-color:white;
+        }
+        .right{
+            position: relative;
+            float: right;
+            width: 76%;
+            color:black;
+            background-color: white;
+        }
+        .left li a{
+            color: #000;
+            font-weight:unset;
+        }
+        .left h3,h4{
+            color: rgb(172, 28, 28);
+        }
+        hr{
+            size:0px; 
+        }
+        .slider img{
+            width: 100%;
+            height: 100%;
+        }
         
     </style>
 </head>
@@ -45,11 +79,17 @@
             <div class="region">
                 <div>
                     <!-- 菜单区 -->
-                    <ul>
-                        <li><a href="">首页</a></li>
-                        <li><a href="">比赛信息</a></li>
-                        <li><a href="">技术资料</a></li>
-                        <li><a href="">论坛讨论</a></li>
+                    <ul >
+                        <li><a href="index.html">首页</a></li>
+                        <li id="liebiao">&nbsp; &nbsp;&nbsp;比赛信息 
+                            <ul id="xialai">
+                                <li><a href="各类比赛信息界面.html">各类比赛信息</a></li>
+                                <li><a href="比赛群聊界面.html">比赛群聊</a></li>
+                                <li><a href="比赛获奖信息.html">比赛获奖信息</a></li>
+                            </ul>
+                         </li>
+                        <li><a href="https://uscihtoj.com">技术资料</a></li>
+                        <li><a href="团队介绍.html">团队介绍</a></li>
                     </ul>
                 </div>
                 
@@ -70,23 +110,47 @@
         </div>
     </header>
     <main>
+        <div class="main">
         <div class="content_body">
-            <div class="left"></div>
-            <div class="right"></div>
+            <div class="left">
+                <h3 align="center">可能有用的训练网站</h3>
+                <hr>
+                     <h4>ACM训练</h4>
+                        <ul>
+                            <li><a href="http://47.105.215.157/" target="_blank">IHT OJ</a></li>
+                            <li><a href="http://dasai.lanqiao.cn/" target="_blank">蓝桥杯</a></li>
+                            <li><a href="http://acm.swust.edu.cn:8080/JudgeOnline/" target="_blank">swust</a></li>
+                        </ul>
+                        <hr>
+                        <h4>CTF训练</h4>
+                        <ul>
+                            <li><a href="https://adworld.xctf.org.cn/" target="_blank">攻防世界</a></li>
+                            <li><a href="http://www.shiyanbar.com/ctf/practice" target="_blank">实验吧</a></li>
+                            <li><a href="https://ctf.bugku.com/" target="_blank">bugku</a></li>
+                        </ul>
+                        <hr>
+                        <h4>数学建模</h4>
+                        <ul>
+                            <li><a href="http://www.mcm.edu.cn/" target="_blank">全国大学生数学建模大赛</a></li>
+                        </ul>
+                    <hr>
+                <h4 style="color:rgb(3, 3, 3)">我们继续努力为大家寻找更多训练资源</h4>
+            </div>
+            <div class="right">
+                <div id="motto">
+                    <p align="center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</p>
+                </div>
+                <div id="scrollPics">
+                    <ul class="slider">
+                        <li><img src="img/acm.png" /></li>
+                        <li><img src="img/ctf.png" /></li>
+                        <li><img src="img/shumo.png"/></li>
+                     </ul>
+                    <ul class="num"></ul>
+                </div>
+            </div>
         </div>
-        <br><br><br><br><br><br><br><br>
-        <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br>
-
-        <br><br><br><br><br><br><br><br> -->
+        </div>
     </main>
     <footer>
         <div class="footer">
